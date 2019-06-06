@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomFlowersList">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Customers Information"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+       />
+    </LinearLayout>
+
+
+    <TableRow android:weightSum="1">
+        <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_weight="0.1" android:layout_marginRight="0dp">
+      <!-- Column 1 -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_weight="0.1"
+            android:text="Id"
+            android:textColor="@color/color1"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_weight="0.45" android:layout_marginRight="6dp">
+        <!-- Column 2 -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_weight="0.1"
+            android:text="Date"
+            android:textColor="@color/color1"/>
+
+        <!-- Column 3 -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_weight="0.1"
+            android:text="Name"
+            android:textColor="@color/color1"/>
+        <!-- Column 4
+         -->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_weight="0.1"
+            android:text="Phone"
+            android:textColor="@color/color1"/>
+        <!-- Column 5 -->
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_weight="0.47" android:layout_marginRight="6dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_weight="0.1"
+            android:text="Kgs"
+            android:textColor="@color/color1"/>
+
+        <!-- Column 6 -->
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_weight="0.1"
+            android:text="Cost"
+            android:textColor="@color/color1"/>
+
+        <!-- Column 7 -->
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_weight="0.1"
+            android:text="Total"
+            android:textColor="@color/color1"/>
+        </LinearLayout>
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/color11"
+
+            />
+    </LinearLayout>
+
+
+
+</TableLayout>
+
+</RelativeLayout>

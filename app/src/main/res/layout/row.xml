@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <TableRow android:weightSum="1">
+
+        <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_weight="0.1" android:layout_marginRight="0dp">
+        <!-- Column 1 -->
+            <TextView
+                android:id="@+id/textViewIdlist"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color9"
+                android:layout_weight="0.1"
+                android:text="20172"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_weight="0.45" android:layout_marginRight="6dp">
+
+            <!-- Column 2 -->
+                <TextView
+                    android:id="@+id/textViewDatelist"
+                    android:layout_height="wrap_content"
+                    android:layout_width="10dp"
+                    android:textColor="@color/color9"
+                    android:text="10-10-2017"
+                    android:layout_weight="0.1"
+                   />
+            <!-- Column 3 -->
+                <TextView
+                    android:id="@+id/textViewCustomerNamelist"
+                    android:layout_height="wrap_content"
+                    android:layout_width="20dp"
+                    android:textColor="@color/color9"
+                    android:text="uuuuf fgfgf uhjyujytytyuyuyuyuytuytugfgf"
+                    android:layout_weight="0.1"
+                   />
+            <!-- Column 4 -->
+                <TextView
+                    android:id="@+id/textViewMobileNolist"
+                    android:layout_height="wrap_content"
+                    android:layout_width="20dp"
+                    android:textColor="@color/color9"
+                    android:text="9655585452"
+                    android:layout_weight="0.1"
+                    />
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_weight="0.47" android:layout_marginRight="6dp">
+            <!-- Column 5 -->
+            <TextView
+                android:id="@+id/textViewQuantitylist"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color9"
+                android:text="201732"
+                android:layout_weight="0.1" />
+            <!-- Column 6 -->
+
+                <TextView
+                android:id="@+id/textViewCostlist"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                    android:textColor="@color/color9"
+                    android:text="201732"
+                    android:layout_weight="0.1" />
+
+            <!-- Column 7 -->
+                <TextView
+                    android:id="@+id/textViewTotallist"
+                    android:layout_height="wrap_content"
+                    android:layout_width="20dp"
+                    android:textColor="@color/color9"
+                    android:text="201735552"
+                    android:layout_weight="0.1"
+                  />
+
+
+        </LinearLayout>
+
+        </TableRow>
+
+    <TableRow android:weightSum="1">
+
+        <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_width="0dp" android:layout_weight="0.2">
+
+            <ImageButton
+                android:id="@+id/editlist"
+                android:layout_width="5dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/editiconpng"
+
+                />
+
+            <ImageButton
+                android:id="@+id/deletelist"
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/deleteiconpng" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/grandtotal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary3"
+            android:layout_marginLeft="170dp"
+            />
+    </LinearLayout>
+
+
+
+</TableLayout>
+
+
+</RelativeLayout>
